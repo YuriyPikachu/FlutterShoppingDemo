@@ -66,7 +66,7 @@ class _SampleAppPageState extends State<SampleAppPage> {
             Container(
               padding: EdgeInsets.only(bottom: 8.0),
               child: Text(
-                "Oeschinen Lake ",
+                "Oeschin Lake ",
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
             ),

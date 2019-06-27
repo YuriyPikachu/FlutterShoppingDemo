@@ -1,4 +1,4 @@
 # FlutterShoppingDemo
 
 
-[scan](./scan.jpg)
+![scan](./scan.jpg)

@@ -25,7 +25,7 @@ class SampleAppPage extends StatefulWidget {
 
 class _SampleAppPageState extends State<SampleAppPage> {
   List widgets = [];
-
+  bool check = true;
   @override
   void initState() {
     super.initState();
@@ -54,6 +54,15 @@ class _SampleAppPageState extends State<SampleAppPage> {
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
+            Checkbox(
+              value: this.check,
+              activeColor: Colors.blue,
+              onChanged: (bool val) {
+                // val 是布尔值
+                this.setState(() {
+                  this.check = !this.check;
+                });
+              },),
             Container(
               padding: EdgeInsets.only(bottom: 8.0),
               child: Text(

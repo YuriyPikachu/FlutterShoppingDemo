@@ -63,7 +63,7 @@ class _SampleAppPageState extends State<SampleAppPage> {
                   this.check = !this.check;
                 });
               },),
-            Image(image: new AssetImage('images/goods.png',),),
+            new Image.network('http://pic.baike.soso.com/p/20130828/20130828161137-1346445960.jpg', scale: 5.0,),
             Container(
               padding: EdgeInsets.only(bottom: 8.0),
               child: Text(
